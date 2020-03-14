@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lottie-ios-bb'
-  s.version          = '2.5.3'
+  s.version          = '2.5.4'
   s.summary          = 'Used to natively render vector animations exported from After Effects.'
 
   s.description      = <<-DESC
@@ -40,6 +40,6 @@ For the first time, designers can create and ship beautiful animations without a
   s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
   s.osx.frameworks = ['AppKit', 'CoreVideo']
-  s.module_name = 'Lottie'
-  s.header_dir = 'Lottie'
+  s.module_name = 'Lottiebb'
+  s.header_dir = 'Lottiebb'
 end
