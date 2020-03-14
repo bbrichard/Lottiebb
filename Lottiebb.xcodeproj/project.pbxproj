@@ -581,19 +581,19 @@
 		62C9EA421F1FDBF000DE7D07 /* LOTCircleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOTCircleAnimator.m; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.m"; sourceTree = SOURCE_ROOT; };
 		62C9EA481F1FE6C800DE7D07 /* LOTRoundedRectAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOTRoundedRectAnimator.h; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.h"; sourceTree = SOURCE_ROOT; };
 		62C9EA491F1FE6C800DE7D07 /* LOTRoundedRectAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOTRoundedRectAnimator.m; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.m"; sourceTree = SOURCE_ROOT; };
-		62CA59B81E3C173B002D7188 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CA59B81E3C173B002D7188 /* Lottiebb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottiebb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CA59BC1E3C173B002D7188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CA59C41E3C179F002D7188 /* LOTAnimationTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationTransitionController.h; sourceTree = "<group>"; };
 		62CA59C61E3C179F002D7188 /* Lottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
 		62E27B451F31158B0098420E /* LOTAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationCache.h; sourceTree = "<group>"; };
 		62E27B491F3115AF0098420E /* LOTAnimationCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationCache.m; sourceTree = "<group>"; };
 		62E4703A20000C9A000C97B5 /* LOTValueDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOTValueDelegate.h; sourceTree = "<group>"; };
-		84FE12EF1E4C1485009B157C /* libLottie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLottie.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C5379761FB471D100C1BC65 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FE12EF1E4C1485009B157C /* libLottiebb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLottiebb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5379761FB471D100C1BC65 /* Lottiebb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottiebb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE498E3B1F336A3B00D1DFCD /* LOTCacheProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCacheProvider.m; sourceTree = "<group>"; };
 		EE498E3D1F336A4900D1DFCD /* LOTCacheProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCacheProvider.h; sourceTree = "<group>"; };
 		FA1F5A9F1E42B52800FF36BF /* LOTAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView.h; sourceTree = "<group>"; };
-		FAE1F7E61E428CBE002E0974 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1F7E61E428CBE002E0974 /* Lottiebb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottiebb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -834,7 +834,7 @@
 		62CA59AE1E3C173B002D7188 = {
 			isa = PBXGroup;
 			children = (
-				62CA59BA1E3C173B002D7188 /* Lottie */,
+				62CA59BA1E3C173B002D7188 /* Lottiebb */,
 				62CA59B91E3C173B002D7188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -842,15 +842,15 @@
 		62CA59B91E3C173B002D7188 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62CA59B81E3C173B002D7188 /* Lottie.framework */,
-				FAE1F7E61E428CBE002E0974 /* Lottie.framework */,
-				84FE12EF1E4C1485009B157C /* libLottie.a */,
-				8C5379761FB471D100C1BC65 /* Lottie.framework */,
+				62CA59B81E3C173B002D7188 /* Lottiebb.framework */,
+				FAE1F7E61E428CBE002E0974 /* Lottiebb.framework */,
+				84FE12EF1E4C1485009B157C /* libLottiebb.a */,
+				8C5379761FB471D100C1BC65 /* Lottiebb.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62CA59BA1E3C173B002D7188 /* Lottie */ = {
+		62CA59BA1E3C173B002D7188 /* Lottiebb */ = {
 			isa = PBXGroup;
 			children = (
 				62BFC2CF1F1428E80068A342 /* RenderSystem */,
@@ -862,7 +862,7 @@
 				62CA59C31E3C179F002D7188 /* PublicHeaders */,
 				62CA59BC1E3C173B002D7188 /* Info.plist */,
 			);
-			path = Lottie;
+			path = Lottiebb;
 			sourceTree = "<group>";
 		};
 		62CA59C31E3C179F002D7188 /* PublicHeaders */ = {
@@ -1101,9 +1101,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		62CA59B71E3C173B002D7188 /* Lottie_iOS */ = {
+		62CA59B71E3C173B002D7188 /* Lottiebb_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62CA59C01E3C173B002D7188 /* Build configuration list for PBXNativeTarget "Lottie_iOS" */;
+			buildConfigurationList = 62CA59C01E3C173B002D7188 /* Build configuration list for PBXNativeTarget "Lottiebb_iOS" */;
 			buildPhases = (
 				62CA59B31E3C173B002D7188 /* Sources */,
 				62CA59B41E3C173B002D7188 /* Frameworks */,
@@ -1114,14 +1114,14 @@
 			);
 			dependencies = (
 			);
-			name = Lottie_iOS;
+			name = Lottiebb_iOS;
 			productName = Lottie;
-			productReference = 62CA59B81E3C173B002D7188 /* Lottie.framework */;
+			productReference = 62CA59B81E3C173B002D7188 /* Lottiebb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		84FE12EE1E4C1485009B157C /* LottieLibraryIOS */ = {
+		84FE12EE1E4C1485009B157C /* LottiebbLibraryIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FE12F71E4C1485009B157C /* Build configuration list for PBXNativeTarget "LottieLibraryIOS" */;
+			buildConfigurationList = 84FE12F71E4C1485009B157C /* Build configuration list for PBXNativeTarget "LottiebbLibraryIOS" */;
 			buildPhases = (
 				84FE12EB1E4C1485009B157C /* Sources */,
 				84FE12EC1E4C1485009B157C /* Frameworks */,
@@ -1131,14 +1131,14 @@
 			);
 			dependencies = (
 			);
-			name = LottieLibraryIOS;
+			name = LottiebbLibraryIOS;
 			productName = LottieLibraryIOS;
-			productReference = 84FE12EF1E4C1485009B157C /* libLottie.a */;
+			productReference = 84FE12EF1E4C1485009B157C /* libLottiebb.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8C5378FE1FB471D100C1BC65 /* Lottie_tvOS */ = {
+		8C5378FE1FB471D100C1BC65 /* Lottiebb_tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5379731FB471D100C1BC65 /* Build configuration list for PBXNativeTarget "Lottie_tvOS" */;
+			buildConfigurationList = 8C5379731FB471D100C1BC65 /* Build configuration list for PBXNativeTarget "Lottiebb_tvOS" */;
 			buildPhases = (
 				8C5378FF1FB471D100C1BC65 /* Sources */,
 				8C5379351FB471D100C1BC65 /* Frameworks */,
@@ -1149,14 +1149,14 @@
 			);
 			dependencies = (
 			);
-			name = Lottie_tvOS;
+			name = Lottiebb_tvOS;
 			productName = Lottie;
-			productReference = 8C5379761FB471D100C1BC65 /* Lottie.framework */;
+			productReference = 8C5379761FB471D100C1BC65 /* Lottiebb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FAE1F79C1E428CBE002E0974 /* Lottie_macOS */ = {
+		FAE1F79C1E428CBE002E0974 /* Lottiebb_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAE1F7E31E428CBE002E0974 /* Build configuration list for PBXNativeTarget "Lottie_macOS" */;
+			buildConfigurationList = FAE1F7E31E428CBE002E0974 /* Build configuration list for PBXNativeTarget "Lottiebb_macOS" */;
 			buildPhases = (
 				FAE1F79D1E428CBE002E0974 /* Sources */,
 				FAE1F7BC1E428CBE002E0974 /* Frameworks */,
@@ -1167,9 +1167,9 @@
 			);
 			dependencies = (
 			);
-			name = Lottie_macOS;
+			name = Lottiebb_macOS;
 			productName = Lottie;
-			productReference = FAE1F7E61E428CBE002E0974 /* Lottie.framework */;
+			productReference = FAE1F7E61E428CBE002E0974 /* Lottiebb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1192,11 +1192,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 62CA59B21E3C173B002D7188 /* Build configuration list for PBXProject "Lottie" */;
+			buildConfigurationList = 62CA59B21E3C173B002D7188 /* Build configuration list for PBXProject "Lottiebb" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 62CA59AE1E3C173B002D7188;
@@ -1204,10 +1205,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62CA59B71E3C173B002D7188 /* Lottie_iOS */,
-				FAE1F79C1E428CBE002E0974 /* Lottie_macOS */,
-				8C5378FE1FB471D100C1BC65 /* Lottie_tvOS */,
-				84FE12EE1E4C1485009B157C /* LottieLibraryIOS */,
+				62CA59B71E3C173B002D7188 /* Lottiebb_iOS */,
+				FAE1F79C1E428CBE002E0974 /* Lottiebb_macOS */,
+				8C5378FE1FB471D100C1BC65 /* Lottiebb_tvOS */,
+				84FE12EE1E4C1485009B157C /* LottiebbLibraryIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1613,12 +1614,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
-				INFOPLIST_FILE = Lottie/Info.plist;
+				INFOPLIST_FILE = Lottiebb/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "";
 			};
@@ -1634,12 +1635,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
-				INFOPLIST_FILE = Lottie/Info.plist;
+				INFOPLIST_FILE = Lottiebb/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "";
 			};
@@ -1650,7 +1651,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5LL7P8E8RA;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1660,7 +1661,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5LL7P8E8RA;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1679,7 +1680,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -1703,7 +1704,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -1726,7 +1727,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1746,7 +1747,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.airbnb.Lottie;
-				PRODUCT_NAME = Lottie;
+				PRODUCT_NAME = Lottiebb;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1756,7 +1757,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62CA59B21E3C173B002D7188 /* Build configuration list for PBXProject "Lottie" */ = {
+		62CA59B21E3C173B002D7188 /* Build configuration list for PBXProject "Lottiebb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62CA59BE1E3C173B002D7188 /* Debug */,
@@ -1765,7 +1766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62CA59C01E3C173B002D7188 /* Build configuration list for PBXNativeTarget "Lottie_iOS" */ = {
+		62CA59C01E3C173B002D7188 /* Build configuration list for PBXNativeTarget "Lottiebb_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62CA59C11E3C173B002D7188 /* Debug */,
@@ -1774,7 +1775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FE12F71E4C1485009B157C /* Build configuration list for PBXNativeTarget "LottieLibraryIOS" */ = {
+		84FE12F71E4C1485009B157C /* Build configuration list for PBXNativeTarget "LottiebbLibraryIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FE12F51E4C1485009B157C /* Debug */,
@@ -1783,7 +1784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C5379731FB471D100C1BC65 /* Build configuration list for PBXNativeTarget "Lottie_tvOS" */ = {
+		8C5379731FB471D100C1BC65 /* Build configuration list for PBXNativeTarget "Lottiebb_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C5379741FB471D100C1BC65 /* Debug */,
@@ -1792,7 +1793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAE1F7E31E428CBE002E0974 /* Build configuration list for PBXNativeTarget "Lottie_macOS" */ = {
+		FAE1F7E31E428CBE002E0974 /* Build configuration list for PBXNativeTarget "Lottiebb_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAE1F7E41E428CBE002E0974 /* Debug */,
